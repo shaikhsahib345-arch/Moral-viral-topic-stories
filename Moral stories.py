@@ -17,16 +17,9 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 # List of broader keywords
 keywords = [
 "Motivational Life Stories", "Moral Stories in English", "Life Lesson Stories", "Inspirational Short Stories",
-"Deep Life Lessons", "Emotional Life Stories", "Real Life Lessons", "Powerful Moral Stories",
+"Deep Life Lesson", "Emotional Life Stories", "Real Life Lesson", "Powerful Moral Story",
 "Stories That Change Life", "Inspirational True Stories", "Life Reality Stories",
-"Emotional Motivational Stories", "Silent Strength Stories", "Hard Truth of Life Stories",
-"Stories About Patience", "Stories About Silence", "Stories About Self Respect",
-"Never Give Up Stories", "Struggle to Success Stories", "Realistic Life Stories",
-"Painful Life Lessons", "Sad But True Stories", "Heart Touching Life Stories",
-"Life Stories With Moral", "True Inspirational Stories", "Life Changing Stories",
-"Stories That Make You Think", "Hidden Meaning Stories", "Wise Life Lessons",
-"Short Motivational Stories", "Deep Meaning Stories", "Lessons From Life",
-"Real Stories Real Lessons"
+"Emotional Motivational Stories", "Stories About Self Respect"
 ]
 
 # Fetch Data Button
@@ -119,7 +112,7 @@ if st.button("Fetch Data"):
                 )
                 st.write("---")
         else:
-            st.warning("No results found for channels with fewer than 3,000 subscribers.")
+            st.warning("No results found for channels with fewer than 10,000 subscribers.")
 
     except Exception as e:
         st.error(f"An error occurred: {e}")
