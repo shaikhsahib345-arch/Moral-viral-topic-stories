@@ -16,10 +16,10 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
-"Motivational Life Stories", "Moral Stories in English", "Life Lesson Stories", "Inspirational Short Stories",
-"Deep Life Lesson", "Emotional Life Stories", "Real Life Lesson", "Powerful Moral Story",
-"Stories That Change Life", "Inspirational True Stories", "Life Reality Stories",
-"Emotional Motivational Stories", "Stories About Self Respect"
+"Motivational Life Stories", "Moral Stories in English", "Life Lesson Stories", "Inspirational Stories",
+"Deep English Story", "Emotional Life Stories", "English Story with Subtitles", "Powerful Moral Story",
+"Stories That Change Life", "Inspirational True Stories", "A Powerful Motivational Story",
+"Emotional Motivational Stories", "A Deep Moral Story"
 ]
 
 # Fetch Data Button
